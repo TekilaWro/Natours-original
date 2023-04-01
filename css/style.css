@@ -37,4 +37,38 @@ header {
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#heading-main {
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: 31px;
+  padding-left: 4px;
+}
+
+#heading-sec {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
